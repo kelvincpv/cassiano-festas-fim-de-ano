@@ -1,54 +1,77 @@
 <style>
-  // Popup 
-  
-  @media screen and (max-width:600){
-    .img-popup{
-        width: 100%;
-    }
+  #newoverlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99990;
+    display: none;
+  }
+  #newSiteMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    display: none;
+    max-width: 90vw;
+    text-align: center;
+  }
+  #newSiteMessage img.img-popup {
+    max-width: 90vw;
+    max-height: 80vh;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    cursor: pointer;
+  }
+  .btn-fechar-popup {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #e84029;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
 </style>
 
 <script type="text/javascript">
+  function showPopupBlack() {
+    var overlay = document.getElementById("newoverlay");
+    var message = document.getElementById("newSiteMessage");
+    if (overlay) overlay.style.display = "block";
+    if (message) message.style.display = "block";
+  }
 
-function showPopupBlack() {
-  $("#newoverlay").css("display","block");
-  $("#newoverlay").css("opacity",0);
-  $("#newoverlay").fadeTo(1000,0.7);  
-  $(".fechar").parent().show("slow"); 
-  $("#newoverlay").click(function(){hidePopupBlack()})
-  $(".fechar").parent().css("z-index",10000);
-}
+  function hidePopupBlack() {
+    var overlay = document.getElementById("newoverlay");
+    var message = document.getElementById("newSiteMessage");
+    if (overlay) overlay.style.display = "none";
+    if (message) message.style.display = "none";
+  }
 
-function hidePopupBlack(){
-  $("#newoverlay").css("display","none");
-  $(".fechar").parent().hide("slow");
-} 
-
-$(document).ready(function(){ 
   setTimeout(showPopupBlack, 2000);
-});
-
 </script>
 
-<center>
+<div id="newoverlay" onclick="hidePopupBlack();"></div>
+<div id="newSiteMessage">
+  <div class="btn-fechar-popup" onclick="hidePopupBlack();">✕</div>
+  <a href="festas-de-fim-de-ano-2026/">
+    <img class="img-popup" src="assets/img/popup.jpg" alt="Festas de Fim de Ano no Cassiano" />
+  </a>
+</div>
 
-    <div id="newSiteMessage" style="clear:both !important; display:none;">
-
-      <a class="fechar" onClick="hidePopupBlack();" style="color:#FFFFFF;cursor:pointer">
-          <span class="noticias-titulo" onClick="hidePopupBlack();">Fechar ✕</span>
-      </a>
-
-      <br/> 
-
-      <a href="festas-de-fim-de-ano-2026/">
-        <img class="img-popup" src="assets/img/popup.jpg" alt="Festas de Fim de Ano no Cassiano" onClick="hidePopupBlack();" />
-      </a>
-
-    </div>
-
-    <div id="newoverlay" style="display:none; opacity:0.7;" onClick="hidePopupBlack();"></div>
-
-</center>
 
 
     <!-- ======= About Section ======= -->
