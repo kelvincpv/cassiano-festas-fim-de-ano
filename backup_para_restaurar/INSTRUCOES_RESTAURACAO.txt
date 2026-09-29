@@ -1,7 +1,13 @@
 INSTRUÇÕES PARA VOLTAR O SITE AO ESTADO ANTERIOR (BACKUP):
 
+Para restaurar o site ao estado exatamente anterior:
+
 1. Acesse o gerenciador de arquivos da hospedagem ou o servidor FTP (pasta public_html).
-2. Substitua o arquivo 'pages/index.php' pelo arquivo contido nesta pasta 'backup_para_restaurar/pages/index.php'.
+
+2. Substitua os arquivos no servidor usando os arquivos desta pasta:
+   a) Substitua 'index.php' na raiz (public_html/index.php) pelo arquivo 'backup_para_restaurar/index.php'.
+   b) Substitua 'pages/index.php' (public_html/pages/index.php) pelo arquivo 'backup_para_restaurar/pages/index.php'.
+
 3. (Opcional) Exclua a pasta 'festas-de-fim-de-ano-2026/' do servidor.
 
-Pronto! O site voltará ao funcionamento padrão sem o pop-up ativo.
+Pronto! O site estará 100% restaurado ao estado original sem o pop-up ou alterações ativas.
