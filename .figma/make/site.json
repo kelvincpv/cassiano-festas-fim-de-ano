@@ -1,0 +1,11 @@
+{
+  "title": "LANDINGPAGE CASSIANO",
+  "description": "Delivers a visually precise desktop landing page that matches a 1920px Figma design while preserving all existing interactive features and navigation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

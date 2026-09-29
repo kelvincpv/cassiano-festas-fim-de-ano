@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Kumbh Sans:SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/KumbhSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato:Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Lato-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato:Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Lato-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato:Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Lato-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato:SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Lato-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tenor Sans:Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/TenorSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Matches';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Matches - Fonte Cassiano.otf') format('opentype');
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  html, body, #root {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+}
