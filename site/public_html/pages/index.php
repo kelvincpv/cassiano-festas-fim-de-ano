@@ -40,7 +40,7 @@ $(document).ready(function(){
 
       <br/> 
 
-      <a href="festas-de-fim-de-ano/">
+      <a href="festas-de-fim-de-ano-2026/">
         <img class="img-popup" src="assets/img/popup.jpg" alt="Festas de Fim de Ano no Cassiano" onClick="hidePopupBlack();" />
       </a>
 

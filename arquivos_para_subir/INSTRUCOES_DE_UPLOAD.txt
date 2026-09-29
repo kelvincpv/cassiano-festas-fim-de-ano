@@ -6,10 +6,10 @@ Para publicar a nova Landing Page e ativar o Pop-up no site oficial (https://www
 
 2. Envie os arquivos desta pasta 'arquivos_para_subir' mantendo a mesma estrutura:
 
-   a) Pasta 'festas-de-fim-de-ano/':
+   a) Pasta 'festas-de-fim-de-ano-2026/':
       - Envie esta pasta inteira para dentro de 'public_html/'.
       - O site da LP ficará acessível no endereço:
-        https://www.cassianorestaurante.com.br/festas-de-fim-de-ano/
+        https://www.cassianorestaurante.com.br/festas-de-fim-de-ano-2026/
 
    b) Arquivo 'assets/img/popup.jpg':
       - Substitua o arquivo 'assets/img/popup.jpg' no servidor pela nova imagem contida em 'arquivos_para_subir/assets/img/popup.jpg'.
