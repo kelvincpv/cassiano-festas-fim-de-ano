@@ -1,0 +1,20 @@
+INSTRUÇÕES PARA SUBIR AS ALTERAÇÕES NO SERVIDOR:
+
+Para publicar a nova Landing Page e ativar o Pop-up no site oficial (https://www.cassianorestaurante.com.br/):
+
+1. Conecte-se ao seu servidor FTP ou Gerenciador de Arquivos do cPanel / Locaweb na pasta 'public_html/'.
+
+2. Envie os arquivos desta pasta 'arquivos_para_subir' mantendo a mesma estrutura:
+
+   a) Pasta 'festas-de-fim-de-ano/':
+      - Envie esta pasta inteira para dentro de 'public_html/'.
+      - O site da LP ficará acessível no endereço:
+        https://www.cassianorestaurante.com.br/festas-de-fim-de-ano/
+
+   b) Arquivo 'assets/img/popup.jpg':
+      - Substitua o arquivo 'assets/img/popup.jpg' no servidor pela nova imagem contida em 'arquivos_para_subir/assets/img/popup.jpg'.
+
+   c) Arquivo 'pages/index.php':
+      - Substitua o arquivo 'pages/index.php' no servidor pelo arquivo contido em 'arquivos_para_subir/pages/index.php'.
+
+O Pop-up aparecerá automaticamente 2 segundos após o visitante entrar no site e direcionará para a nova Landing Page ao ser clicado!

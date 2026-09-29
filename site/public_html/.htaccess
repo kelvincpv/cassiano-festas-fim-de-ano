@@ -1,0 +1,12 @@
+##### LOCAWEB - NAO REMOVER #####
+#AddHandler php56-script .php
+#suPHP_ConfigPath /home/cassianorestaura1/
+##### LOCAWEB - NAO REMOVER #####
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1
+
+
+
