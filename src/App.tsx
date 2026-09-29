@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-const ap = '/assets';
+const ap = 'assets';
 const imgLogo = `${ap}/8d620.png`;
 const imgCeiaNatalBg = `${ap}/a7090.png`;
 const imgReveillonBg = `${ap}/49af0.png`;
@@ -23,7 +23,7 @@ const imgDjGoulart = `${ap}/f0471.png`;
 const imgMomentos1Rev = `${ap}/43537.png`;
 const imgMomentos2Rev = `${ap}/f6029.png`;
 const imgMomentos3Rev = `${ap}/099ae.png`;
-const imgMesaCafeRev = '/assets/mesa-cafe-rev.png';
+const imgMesaCafeRev = 'assets/mesa-cafe-rev.png';
 const iconPhoneRed = `${ap}/5a793.svg`;
 const iconPhoneGold = `${ap}/0133e.svg`;
 const vecCheck = `${ap}/c8f34.svg`;
@@ -36,12 +36,12 @@ const vecLineRed112 = `${ap}/b4d1e.svg`;
 const vecVertWhite = `${ap}/d2135.svg`;
 const vecLineGold112 = `${ap}/cf80d.svg`;
 
-const imgMobBannerNatal   = '/assets/banner-mob-natal.png';
-const imgMobBannerFestas  = '/assets/banner-mob-festas.png';
-const imgMobBannerRev     = '/assets/banner-mob-reveillon.png';
+const imgMobBannerNatal   = 'assets/banner-mob-natal.png';
+const imgMobBannerFestas  = 'assets/banner-mob-festas.png';
+const imgMobBannerRev     = 'assets/banner-mob-reveillon.png';
 const MOB_BANNER_RATIO = '175.47%';
-const imgMobHeroNatal = '/assets/hero-mob-natal.png';
-const imgMobHeroRev   = '/assets/hero-mob-reveillon.png';
+const imgMobHeroNatal = 'assets/hero-mob-natal.png';
+const imgMobHeroRev   = 'assets/hero-mob-reveillon.png';
 
 // Helper function to build WhatsApp API link with requested custom message
 const getWhatsappUrl = (phone: string, eventName: string) => {
@@ -86,9 +86,9 @@ export default function App() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const imgBannerNatal = '/assets/banner-natal.png';
-  const imgBannerFestas = '/assets/banner-festas.png';
-  const imgBannerRev = '/assets/banner-reveillon.png';
+  const imgBannerNatal = 'assets/banner-natal.png';
+  const imgBannerFestas = 'assets/banner-festas.png';
+  const imgBannerRev = 'assets/banner-reveillon.png';
 
   const fHN = "'Helvetica Neue', Helvetica, Arial, sans-serif";
   const fMatches = "'Matches', serif";
