@@ -19,6 +19,23 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Baixar imagens reais do Git LFS
+        run: git lfs pull
+      - name: Validar imagens do site
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          files = list(Path('public/assets').glob('*'))
+          images = [p for p in files if p.suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp'}]
+          if not images:
+              raise SystemExit('Nenhuma imagem encontrada em public/assets')
+          pointers = [str(p) for p in images if p.read_bytes()[:50].startswith(b'version https://git-lfs.github.com/spec/v1')]
+          if pointers:
+              raise SystemExit('Imagens Git LFS nao baixadas: ' + ', '.join(pointers[:10]))
+          print(f'{len(images)} imagens reais validadas')
+          PY
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
