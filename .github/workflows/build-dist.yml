@@ -1,0 +1,39 @@
+name: Gerar pacote de publicacao
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'index.html'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build-dist.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Instalar dependencias
+        run: npm ci
+      - name: Gerar dist
+        run: npm run build
+      - name: Compactar dist
+        run: |
+          cd dist
+          zip -r ../cassiano-dist.zip .
+      - name: Disponibilizar ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: cassiano-dist
+          path: cassiano-dist.zip
+          retention-days: 30
