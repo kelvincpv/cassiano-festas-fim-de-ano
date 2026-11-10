@@ -114,6 +114,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 40, color: '#000', lineHeight: '1.1', marginTop: 2, textAlign: 'center', width: '100%' }}>{price}</div>
             <div style={{ fontFamily: fHN, fontWeight: 600, fontSize: 18, color: '#000', lineHeight: '26px', marginTop: 4, textAlign: 'center', width: '100%' }}>por pessoa</div>
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 14, color: '#000', lineHeight: '20px', textAlign: 'center', width: '100%' }}>+ 13% de taxa de serviço</div>
+            <p style={{ fontFamily: fHN, fontWeight: 400, fontSize: 12, color: '#000', lineHeight: '18px', textAlign: 'center', width: '100%', margin: '10px 0 0' }}><strong>Condições para crianças:</strong> Crianças de até 6 anos são isentas de pagamento. Crianças de 7 a 15 anos pagam 50% do valor do lote vigente.</p>
           </div>
           <div style={{ height: 2, background: dividerColor, marginLeft: 20, marginRight: 20 }} />
           <div style={{ padding: '16px 20px 24px' }}>
@@ -144,6 +145,7 @@ export default function App() {
           <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(32px, 3.5vw, 48px)', color: '#000', lineHeight: '1.1' }}>{price}</div>
           <div style={{ fontFamily: fHN, fontWeight: 600, fontSize: 'clamp(16px, 1.5vw, 22px)', color: '#000', lineHeight: '1.2', marginTop: 4 }}>por pessoa</div>
           <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(13px, 1.1vw, 16px)', color: '#000', lineHeight: '1.2' }}>+ 13% de taxa de serviço</div>
+          <p style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(12px, 0.95vw, 14px)', color: '#000', lineHeight: '1.4', margin: '12px 0 0' }}><strong>Condições para crianças:</strong> Crianças de até 6 anos são isentas de pagamento. Crianças de 7 a 15 anos pagam 50% do valor do lote vigente.</p>
         </div>
         <div style={{ width: 3, background: dividerColor, alignSelf: 'stretch', marginTop: 24, marginBottom: 24, flexShrink: 0 }} />
         <div style={{ flex: 1, boxSizing: 'border-box', padding: '28px 36px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
