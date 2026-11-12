@@ -54,3 +54,13 @@ jobs:
           name: cassiano-dist
           path: cassiano-dist.zip
           retention-days: 30
+      - name: Compactar apenas HTML e JavaScript (sem imagens)
+        run: |
+          cd dist
+          zip ../cassiano-atualizacao-sem-imagens.zip index.html assets/*.js
+      - name: Disponibilizar pacote leve sem imagens
+        uses: actions/upload-artifact@v4
+        with:
+          name: cassiano-atualizacao-sem-imagens
+          path: cassiano-atualizacao-sem-imagens.zip
+          retention-days: 30
