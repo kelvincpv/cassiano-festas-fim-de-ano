@@ -567,7 +567,7 @@ export default function App() {
 
           <PricingCard
             outerBg="#e84029" dividerColor="#000000"
-            eventLabel="CEIA DE NATAL" tierLabel="LOTE X" price="R$ 000,00"
+            eventLabel="CEIA DE NATAL" tierLabel="LOTE 1" price="R$ 550,00"
             ctaBg="#000000" ctaText="#ffffff" ctaHref={getWhatsappUrl('5512992414004', 'a Ceia de Natal')}
             badgeBg="#000000" includes={['Estações Completas Do Buffet', 'Bebidas Selecionadas', 'Música Ao Vivo Durante A Ceia']}
           />
@@ -890,7 +890,7 @@ export default function App() {
 
           <PricingCard
             outerBg="#ab8645" dividerColor="#000000"
-            eventLabel="RÉVEILLON" tierLabel="LOTE X" price="R$ 000,00"
+            eventLabel="RÉVEILLON" tierLabel="LOTE 1" price="R$ 815,00"
             ctaBg="#362f28" ctaText="#faf4fb" ctaHref={getWhatsappUrl('5512992414004', 'o Réveillon')}
             badgeBg="#362f28" includes={['Estações completas do buffet', 'Bebidas selecionadas', 'Banda Sugar Soul + DJ Goulart']}
           />
