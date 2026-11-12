@@ -399,7 +399,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 13, color: '#faf4fb', lineHeight: '20px', textAlign: 'center', marginBottom: 28 }}>
               Uma experiência gastronômica completa, com o melhor da culinária portuguesa, em um ambiente acolhedor e elegante, no coração de São José dos Campos.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 54, background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 54, background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '2px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
             </a>
           </div>
@@ -421,7 +421,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(14px, 1.2vw, 18px)', color: '#faf4fb', lineHeight: '1.5', maxWidth: 700, marginBottom: 32 }}>
               Uma experiência gastronômica completa, com o melhor da culinária portuguesa, em um ambiente acolhedor e elegante, no coração de São José dos Campos.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(260px, 22vw, 380px)', height: 'clamp(48px, 4vw, 68px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(260px, 22vw, 380px)', height: 'clamp(48px, 4vw, 68px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(14px, 1.2vw, 20px)', letterSpacing: '2.5px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
             </a>
           </div>
@@ -473,7 +473,7 @@ export default function App() {
             </div>
           )}
           <div style={{ marginTop: isMobile ? 24 : 0, display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: isMobile ? 13 : 'clamp(13px, 1.1vw, 17px)', letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
             </a>
           </div>
@@ -495,7 +495,7 @@ export default function App() {
           <div style={{ position: 'relative', width: '100%' }}>
             <img src={imgBebidasNatal} style={{ width: '100%', display: 'block', objectFit: 'cover' }} />
             <div style={{ position: 'absolute', bottom: 32, left: '50%', transform: 'translateX(-50%)', width: 260 }}>
-              <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: 56, background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+              <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: 56, background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
                 <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
               </a>
             </div>
@@ -514,7 +514,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(15px, 1.5vw, 22px)', color: '#faf4fb', lineHeight: '1.4', maxWidth: 500, marginBottom: 32 }}>
               Espumante, vinho tinto, água mineral, suco e refrigerante.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(13px, 1.1vw, 17px)', letterSpacing: '2.5px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
             </a>
           </div>
@@ -532,7 +532,7 @@ export default function App() {
             <img src={imgTrilhaNatal} style={{ width: '100%', display: 'block', objectFit: 'cover' }} />
             <div style={{ position: 'absolute', inset: 0, borderRadius: 13, border: '3px solid #ffffff', pointerEvents: 'none', zIndex: 2 }} />
           </div>
-          <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 56, background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer', margin: '0 auto' }}>
+          <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 56, background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer', margin: '0 auto' }}>
             <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
           </a>
         </section>
@@ -547,7 +547,7 @@ export default function App() {
               <img src={imgTrilhaNatal} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div style={{ position: 'absolute', inset: 0, borderRadius: 13, border: '3px solid #ffffff', pointerEvents: 'none', zIndex: 2 }} />
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(13px, 1.1vw, 17px)', letterSpacing: '2.5px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
             </a>
           </div>
@@ -568,13 +568,13 @@ export default function App() {
           <PricingCard
             outerBg="#e84029" dividerColor="#000000"
             eventLabel="CEIA DE NATAL" tierLabel="LOTE 1" price="R$ 550,00"
-            ctaBg="#000000" ctaText="#ffffff" ctaHref={getWhatsappUrl('5512992414004', 'a Ceia de Natal')}
+            ctaBg="#000000" ctaText="#ffffff" ctaHref={getWhatsappUrl('5512991402949', 'a Ceia de Natal')}
             badgeBg="#000000" includes={['Estações Completas Do Buffet', 'Bebidas Selecionadas', 'Música Ao Vivo Durante A Ceia']}
           />
 
           <PricingCardHotel
             outerBg="#ffffff" dividerColor="#e84029"
-            ctaBg="#e84029" ctaText="#faf4fb" ctaHref={getWhatsappUrl('5512992414004', 'o pacote de Ceia de Natal com Hospedagem')}
+            ctaBg="#e84029" ctaText="#faf4fb" ctaHref={getWhatsappUrl('5512991402949', 'o pacote de Ceia de Natal com Hospedagem')}
             titleAccentColor="#e84029" titleLines={'CEIA +\nHOSPEDAGEM'}
             description={'Uma experiência completa para aproveitar a noite com mais conforto.\n\nReservas pelo WhatsApp ou telefone do Hotel Golden Tulip.'}
           />
@@ -680,7 +680,7 @@ export default function App() {
                   <img src={iconPhoneRed} style={{ width: 22, height: 22, flexShrink: 0 }} />
                   <a href="tel:+551231314141" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 17, color: '#ffffff', letterSpacing: '2px', lineHeight: '24px', textDecoration: 'none' }}>(12) 3131-4141</a>
                 </div>
-                <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 52, background: '#e84029', borderRadius: 10, textDecoration: 'none', marginLeft: 'auto', marginRight: 'auto' }}>
+                <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 52, background: '#e84029', borderRadius: 10, textDecoration: 'none', marginLeft: 'auto', marginRight: 'auto' }}>
                   <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '3px', color: '#ffffff', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
                 </a>
               </div>
@@ -695,7 +695,7 @@ export default function App() {
                   <img src={iconPhoneRed} style={{ width: 22, height: 22, flexShrink: 0 }} />
                   <a href="tel:+551231314141" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 'clamp(15px, 1.4vw, 20px)', color: '#ffffff', letterSpacing: '3px', textDecoration: 'none' }}>(12) 3131-4141</a>
                 </div>
-                <a href={getWhatsappUrl('5512992414004', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(220px, 18vw, 280px)', height: 'clamp(44px, 3.8vw, 55px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', flexShrink: 0 }}>
+                <a href={getWhatsappUrl('5512991402949', 'a Ceia de Natal')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(220px, 18vw, 280px)', height: 'clamp(44px, 3.8vw, 55px)', background: '#e84029', borderRadius: 10, textDecoration: 'none', flexShrink: 0 }}>
                   <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(12px, 1vw, 15px)', letterSpacing: '3px', color: '#ffffff', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
                 </a>
               </div>
@@ -728,7 +728,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 13, color: '#362f28', lineHeight: '20px', textAlign: 'center', marginBottom: 28 }}>
               Celebre a chegada de 2027 com alta gastronomia, boa música e um ambiente sofisticado, no Hotel Golden Tulip, em São José dos Campos.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 54, background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 54, background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '2px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
             </a>
           </div>
@@ -751,7 +751,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(14px, 1.2vw, 18px)', color: '#362f28', lineHeight: '1.5', maxWidth: 700, marginBottom: 32 }}>
               Celebre a chegada de 2027 com alta gastronomia, boa música e um ambiente sofisticado, no Hotel Golden Tulip, em São José dos Campos.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(260px, 22vw, 380px)', height: 'clamp(48px, 4vw, 68px)', background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(260px, 22vw, 380px)', height: 'clamp(48px, 4vw, 68px)', background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(14px, 1.2vw, 20px)', letterSpacing: '2.5px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
             </a>
           </div>
@@ -803,7 +803,7 @@ export default function App() {
             </div>
           )}
           <div style={{ marginTop: isMobile ? 24 : 0, display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: isMobile ? 13 : 'clamp(13px, 1.1vw, 17px)', letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
             </a>
           </div>
@@ -823,7 +823,7 @@ export default function App() {
           <div style={{ position: 'relative', width: '100%' }}>
             <img src={imgBebidasRev} style={{ width: '100%', display: 'block', objectFit: 'cover' }} />
             <div style={{ position: 'absolute', bottom: 32, left: '50%', transform: 'translateX(-50%)', width: 260 }}>
-              <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: 56, background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+              <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: 56, background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
                 <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
               </a>
             </div>
@@ -842,7 +842,7 @@ export default function App() {
             <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: 'clamp(15px, 1.5vw, 22px)', color: '#362f28', lineHeight: '1.4', maxWidth: 500, marginBottom: 32 }}>
               Espumante, vinho tinto, vinho branco, cerveja, água mineral, suco e refrigerante.
             </div>
-            <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+            <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(240px, 20vw, 340px)', height: 'clamp(48px, 4vw, 60px)', background: '#ab8645', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
               <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(13px, 1.1vw, 17px)', letterSpacing: '2.5px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
             </a>
           </div>
@@ -872,7 +872,7 @@ export default function App() {
               </div>
             ))}
           </div>
-          <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
+          <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? 260 : 'clamp(260px, 22vw, 380px)', height: isMobile ? 56 : 'clamp(48px, 4vw, 68px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', cursor: 'pointer' }}>
             <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: isMobile ? 13 : 'clamp(13px, 1.1vw, 17px)', letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>RESERVE AGORA</span>
           </a>
         </div>
@@ -891,13 +891,13 @@ export default function App() {
           <PricingCard
             outerBg="#ab8645" dividerColor="#000000"
             eventLabel="RÉVEILLON" tierLabel="LOTE 1" price="R$ 815,00"
-            ctaBg="#362f28" ctaText="#faf4fb" ctaHref={getWhatsappUrl('5512992414004', 'o Réveillon')}
+            ctaBg="#362f28" ctaText="#faf4fb" ctaHref={getWhatsappUrl('5512991402949', 'o Réveillon')}
             badgeBg="#362f28" includes={['Estações completas do buffet', 'Bebidas selecionadas', 'Banda Sugar Soul + DJ Goulart']}
           />
 
           <PricingCardHotel
             outerBg="#ffffff" dividerColor="#ab8645"
-            ctaBg="#ab8645" ctaText="#fcfdf5" ctaHref={getWhatsappUrl('5512992414004', 'o pacote de Réveillon com Hospedagem')}
+            ctaBg="#ab8645" ctaText="#fcfdf5" ctaHref={getWhatsappUrl('5512991402949', 'o pacote de Réveillon com Hospedagem')}
             titleAccentColor="#ab8645" titleLines={'RÉVEILLON +\nHOSPEDAGEM'}
             description={'Uma experiência completa para começar o novo ano com mais conforto.\n\nReservas pelo WhatsApp ou telefone do Hotel Golden Tulip.'}
           />
@@ -1009,7 +1009,7 @@ export default function App() {
                   <img src={iconPhoneGold} style={{ width: 22, height: 22, flexShrink: 0 }} />
                   <a href="tel:+551231314141" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 17, color: '#362f28', letterSpacing: '2px', lineHeight: '24px', textDecoration: 'none' }}>(12) 3131-4141</a>
                 </div>
-                <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 52, background: '#362f28', borderRadius: 10, textDecoration: 'none', marginLeft: 'auto', marginRight: 'auto' }}>
+                <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 260, height: 52, background: '#362f28', borderRadius: 10, textDecoration: 'none', marginLeft: 'auto', marginRight: 'auto' }}>
                   <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 13, letterSpacing: '3px', color: '#faf4fb', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
                 </a>
               </div>
@@ -1024,7 +1024,7 @@ export default function App() {
                   <img src={iconPhoneGold} style={{ width: 22, height: 22, flexShrink: 0 }} />
                   <a href="tel:+551231314141" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 'clamp(15px, 1.4vw, 20px)', color: '#362f28', letterSpacing: '3px', textDecoration: 'none' }}>(12) 3131-4141</a>
                 </div>
-                <a href={getWhatsappUrl('5512992414004', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(220px, 18vw, 280px)', height: 'clamp(44px, 3.8vw, 55px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', flexShrink: 0 }}>
+                <a href={getWhatsappUrl('5512991402949', 'o Réveillon')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'clamp(220px, 18vw, 280px)', height: 'clamp(44px, 3.8vw, 55px)', background: '#362f28', borderRadius: 10, textDecoration: 'none', flexShrink: 0 }}>
                   <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: 'clamp(12px, 1vw, 15px)', letterSpacing: '3px', color: '#faf4fb', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
                 </a>
               </div>
@@ -1047,7 +1047,7 @@ export default function App() {
           <div style={{ fontFamily: fHN, fontWeight: 400, fontSize: isMobile ? 15 : 'clamp(15px, 1.4vw, 20px)', color: '#ffffff', textAlign: 'center', maxWidth: 900, lineHeight: '1.4', marginBottom: 32 }}>
             As reservas são limitadas e os valores variam conforme o lote vigente. Fale com nossa equipe, consulte a disponibilidade e escolha como celebrar no Cassiano.
           </div>
-          <a href={getWhatsappUrl('5512992414004', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? '100%' : 'clamp(260px, 22vw, 340px)', height: isMobile ? 54 : 'clamp(48px, 4vw, 60px)', border: '2px solid #fcfdf5', borderRadius: 10, textDecoration: 'none', cursor: 'pointer', marginBottom: 40 }}>
+          <a href={getWhatsappUrl('5512991402949', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: isMobile ? '100%' : 'clamp(260px, 22vw, 340px)', height: isMobile ? 54 : 'clamp(48px, 4vw, 60px)', border: '2px solid #fcfdf5', borderRadius: 10, textDecoration: 'none', cursor: 'pointer', marginBottom: 40 }}>
             <span style={{ fontFamily: fHN, fontWeight: 900, fontSize: isMobile ? 13 : 'clamp(13px, 1.1vw, 17px)', letterSpacing: '3px', color: '#fcfdf5', textTransform: 'uppercase' }}>FAÇA A SUA RESERVA</span>
           </a>
           {isMobile ? (
@@ -1063,7 +1063,7 @@ export default function App() {
               </div>
               <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
                 <a href="tel:+551239214004" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 15, color: '#ffffff', textDecoration: 'none' }}>(12) 3921-4004</a>
-                <a href={getWhatsappUrl('5512992414004', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 15, color: '#ffffff', textDecoration: 'none' }}>(12) 99241-4004</a>
+                <a href={getWhatsappUrl('5512991402949', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 15, color: '#ffffff', textDecoration: 'none' }}>(12) 99241-4004</a>
               </div>
               <img src={imgLogo} style={{ width: 160, height: 34, objectFit: 'contain' }} />
             </div>
@@ -1076,7 +1076,7 @@ export default function App() {
               <img src={vecVertWhite} style={{ width: 2, height: 48, flexShrink: 0, display: 'block', margin: '0 clamp(16px, 3vw, 40px)' }} />
               <div style={{ display: 'flex', gap: 'clamp(16px, 2.5vw, 36px)', alignItems: 'center', flexShrink: 0 }}>
                 <a href="tel:+551239214004" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 'clamp(15px, 1.4vw, 20px)', color: '#ffffff', textDecoration: 'none' }}>(12) 3921-4004</a>
-                <a href={getWhatsappUrl('5512992414004', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 'clamp(15px, 1.4vw, 20px)', color: '#ffffff', textDecoration: 'none' }}>(12) 99241-4004</a>
+                <a href={getWhatsappUrl('5512991402949', 'as Festas de Fim de Ano')} target="_blank" rel="noopener noreferrer" style={{ fontFamily: fHN, fontWeight: 700, fontSize: 'clamp(15px, 1.4vw, 20px)', color: '#ffffff', textDecoration: 'none' }}>(12) 99241-4004</a>
               </div>
               <img src={vecVertWhite} style={{ width: 2, height: 48, flexShrink: 0, display: 'block', margin: '0 clamp(16px, 3vw, 40px)' }} />
               <img src={imgLogo} style={{ width: 'clamp(120px, 12vw, 180px)', height: 'auto', objectFit: 'contain', flexShrink: 0 }} />
